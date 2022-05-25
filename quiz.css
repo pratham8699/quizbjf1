@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:100%;
+    height:100vh;
+    background:#ECECEC;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.upperpart{
+    width:90%;
+    height:100%;
+    font-size:30px;
+    display:flex;
+    background-color: deepskyblue;
+    justify-content: space-around;
+}
+.statement{
+    margin:35px;
+    align-items:center;
+    margin-left:180px;
+
+
+
+}
+
+
+
+.container{
+    width:90%;
+    background-color:gold;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap: wrap;
+    margin:20px 0;
+
+
+}
+.question{
+    margin:20px;
+    font-size: 30px;
+}
+.options{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:white;
+}
+.option{
+    min-width: 50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: blue;
+
+}
+button{
+    height:50%;
+    padding:0 20px;
+    margin:20px;
+    font-size:20px;
+    border:none;
+    border-radius:70px;
+    box-shadow:4px 4px 20px rgba(0,0,0,0.1);
+
+}
+button:hover{
+    opacity:1;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.1);
+
+}
+.correctchoice{
+    background:#BBFD82;
+
+
+}
+.wrongchoice{
+    background:#FEC6C6;
+}
+.title{
+    margin-top:10px;
+}
+
